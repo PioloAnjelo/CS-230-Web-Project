@@ -1,0 +1,9 @@
+.fm{
+    outline-color: white;
+    outline-style: solid;
+    border-radius: 50px 50px 50px 50px;
+    outline-width: 1.5px;
+}
+.fm:hover{
+    outline-color: #100C08;
+}
