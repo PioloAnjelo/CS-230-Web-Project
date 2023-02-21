@@ -5,12 +5,18 @@ import { TopNavBarComponent } from './navigation/top-nav-bar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
+import { PromotionsCarouselComponent } from './categories/promotions.carousel.component';
+import { HorizontalCardComponent } from './cards/horizontal.card.component';
+import { VerticalComponent } from './cards/vertical.card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
-    FooterComponent
+    FooterComponent,
+    PromotionsCarouselComponent,
+    HorizontalCardComponent,
+    VerticalComponent
   ],
   imports: [
     BrowserModule,

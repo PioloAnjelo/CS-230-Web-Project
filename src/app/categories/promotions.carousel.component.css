@@ -1,0 +1,15 @@
+.small{
+    width: 500px;
+    height: 250px;
+}
+.my-indicator{
+    background-color: white;
+    outline-color: white ;
+    border: 2px;
+    padding: 1px;
+    border-radius: 12px;
+}
+.my-indicator:active{
+    background-color: white;
+    width: 5px;
+}
