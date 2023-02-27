@@ -3,4 +3,16 @@ ul {
     margin: 0;
     padding: 0;
   }
-  
+
+.container-bg {
+  background-color: #353d48;
+}
+
+.text-bg{
+  color: white;
+}
+
+.resize1 img {
+  width:100%;
+  height: 230px;
+}
