@@ -1,4 +1,4 @@
-import {Component} from '@angular/core'
+import {Component, Input} from '@angular/core'
 
 @Component({
     selector: 'fm-promotions-carousel',
@@ -6,5 +6,13 @@ import {Component} from '@angular/core'
     styleUrls: ['promotions.carousel.component.css']
 })
 export class PromotionsCarouselComponent{
+    @Input() img: string;
+    @Input() video: string;
+    description: string;
 
+    constructor(){
+        this.img = "";
+        this.video = "";
+        this.description = "Missing Desc."
+    }
 }

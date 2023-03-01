@@ -9,6 +9,13 @@ import { PromotionsCarouselComponent } from './categories/promotions.carousel.co
 import { HorizontalCardComponent } from './cards/horizontal.card.component';
 import { VerticalComponent } from './cards/vertical.card.component';
 import { SocialFooterComponent } from './footer/social.footer.component';
+import { WebNavComponent } from './navigation/webnav.component';
+import { ToyotaCaresComponent } from './cards/routingcards/toyotacares.component';
+import { SmartPathComponent } from './cards/routingcards/smartpath.component';
+import { HomeLayoutComponent } from './home/home-layout.component';
+import { ToyotaBrandComponent } from './cards/routingcards/toyotabrand.component';
+import { SearchInventoryComponent } from './routing-nav/search.inventory.component';
+import { LetsGoBrandComponent } from './routing-nav/brand.letsgo.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +25,14 @@ import { SocialFooterComponent } from './footer/social.footer.component';
     PromotionsCarouselComponent,
     HorizontalCardComponent,
     VerticalComponent,
-    SocialFooterComponent
+    SocialFooterComponent,
+    WebNavComponent,
+    ToyotaCaresComponent,
+    SmartPathComponent,
+    HomeLayoutComponent,
+    ToyotaBrandComponent,
+    SearchInventoryComponent,
+    LetsGoBrandComponent
   ],
   imports: [
     BrowserModule,
