@@ -1,51 +1,36 @@
-<div><fm-promotions-carousel>Loading...</fm-promotions-carousel></div>
-<div>
-    <div class="d-flex justify-content-center">
-        <p class="tabbed-container_title fs-1 font-weight-bold">
-            Explore All Vehicles
-        </p>
-    </div>
-    <div>
-        <img src="./assets/letsgoplaces.avif" class="d-block w-100" alt="...">
-        <a routerLink= "Brand" class="btn btn-primary">See What We're About</a>
-    </div>
-    <app-web-navbar>Loading...</app-web-navbar>
-</div>
-<div>
-    <div class = "tabbed-container-wrapper">
-
-    </div>
-</div>
-<div class="container-bg container-fluid">
-    <div class="wrapper">
-        <div class="header text-bg d-flex justify-content-center mb-2px ">
-            <p class="font-weight-bold">ELECTRIFIED
-                <br>
-            </p>
-        </div>
-        <div class="header text-bg d-flex justify-content-center">
-            <h4> Building an electrified
-                <br>
-                <p class="d-flex justify-content-center">future, today.</p>
-            </h4>
-        </div>
-        <div class="container-bg">
-            <div class="container">
-                <fm-promotions-carousel>Loading...</fm-promotions-carousel>
+<!-- <div><fm-promotions-carousel>Loading...</fm-promotions-carousel></div> -->
+<div class="home-title ">
+    <div class="container body-wrap">
+        <h1>Supergiant Games is a small developer with big ambitions</h1>
+        <p>We make games that spark your imagination like the games you played as a kid.</p>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div *ngFor="let product of products">
+                        <fm-vertical-card class="mx-2" img={{product.img}} tex={{product.text1}} tex2={{product.text2}} 
+                            link={{product.link}}>
+                            Loading...
+                        </fm-vertical-card>
+                </div>
             </div>
         </div>
+        <h2 class="body-wrap" style="padding-top: 32px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+            </svg>
+            Our Games
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+            </svg>
+        </h2>
     </div>
-</div>
-
-<div class="d-flex justify-content-center">
-    <p class="tabbed-container_title fs-1 font-weight-bold">
-        Discover Toyota
-    </p>
-</div>
-<div class="resize1">
-    <fm-horizontal-card link = "Toyota-Brand">Loading...</fm-horizontal-card>
-    <fm-vertical-card img = "assets\4x3_smartpath.avif" 
-        tex ="An Easier Way to Buy Your Next Toyota" but = "Learn More" link ="Smart-Path">Loading...</fm-vertical-card>
-    <fm-vertical-card img = "assets\4x3_FC_Service.avif" tex = "Toyota Cares"
-        but = "See Details" link = "Toyota-Cares">Loading...</fm-vertical-card>
+    </div>
+    <div>
+        <fm-poster>Loading...</fm-poster>
+    </div>
 </div>

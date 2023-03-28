@@ -16,6 +16,7 @@ import { HomeLayoutComponent } from './home/home-layout.component';
 import { ToyotaBrandComponent } from './cards/routingcards/toyotabrand.component';
 import { SearchInventoryComponent } from './routing-nav/search.inventory.component';
 import { LetsGoBrandComponent } from './routing-nav/brand.letsgo.component';
+import { PosterComponent } from './categories/poster.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,9 @@ import { LetsGoBrandComponent } from './routing-nav/brand.letsgo.component';
     HomeLayoutComponent,
     ToyotaBrandComponent,
     SearchInventoryComponent,
-    LetsGoBrandComponent
+    LetsGoBrandComponent,
+    PosterComponent,
+
   ],
   imports: [
     BrowserModule,

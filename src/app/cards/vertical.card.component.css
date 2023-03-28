@@ -1,0 +1,19 @@
+.card{
+    border: none;
+}
+
+#card ul li {
+    list-style-type: none;
+}
+
+.title{
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #404040;
+}
+p{
+    font-family: proxima-nova;
+    line-height: 24px;
+    font-size: 16px;
+    margin: 0 0 24px;
+}

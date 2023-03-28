@@ -9,11 +9,13 @@ export class VerticalComponent{
     @Input() tex: string;
     @Input() but: string;
     @Input() link: string;
+    @Input() tex2: string;
     
     constructor(){
         this.img = "";
         this.tex = "";
         this.but = "";
         this.link = "";
+        this.tex2 = "";
     }
 }
