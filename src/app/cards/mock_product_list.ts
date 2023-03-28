@@ -14,7 +14,7 @@ export const mock_product_list = [
     },
 
     {
-        img: "assets\Hades_II_Wallpaper_01.jpg",
+        img: "assets/Hades_II_Wallpaper_01.jpg",
         text1: "In Development: HADES II",
         link: "Smart-Path",
         text2: "Battle beyond the Underworld to take on the Titan of Time in this bewitching sequel to our award-winning dungeon crawler!"
