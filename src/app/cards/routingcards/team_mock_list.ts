@@ -1,4 +1,4 @@
-export const jointeam_mock_list = [
+export const team_mock_list = [
     {
         img: "assets/Headshot_Amir.jpg",
         name: "Amir Rao",
