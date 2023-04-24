@@ -6,9 +6,17 @@ import {Component, Input} from "@angular/core";
     styleUrls: ['horizontal.card.component.css'],
 })
 export class HorizontalCardComponent{
-    @Input() link: string;
-
+    @Input() img: string;
+    @Input() text1: string;
+    @Input() title: string;
+    @Input() name: string;
+    @Input() text2: string;
+    
     constructor(){
-        this.link = "";
+        this.img = "";
+        this.text1 = "";
+        this.title = "";
+        this.name = "";
+        this.text2 = "";
     }
 }

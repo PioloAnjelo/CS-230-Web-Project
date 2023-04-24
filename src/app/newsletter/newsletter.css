@@ -1,0 +1,14 @@
+footer .newsletter {
+    background: rgba(0, 0, 0, .2);
+    padding: 24px 0;
+}
+
+.newsletter {
+    display: flex;
+}
+
+.fm:hover {
+    outline-color: #ca0000;
+    text-underline-offset: #100C08;
+    color: #ca0000;
+}

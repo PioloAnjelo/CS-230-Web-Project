@@ -1,5 +1,3 @@
-
-
 export class VerticalComponentModel{
      img: string;
      text1: string;

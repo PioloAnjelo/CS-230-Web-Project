@@ -5,32 +5,32 @@
         <p>We make games that spark your imagination like the games you played as a kid.</p>
         <hr>
         <div class="container">
-            <div class="row">
-                <div class="col-4">
+            <div class="">
+                <div class="container-fluid d-flex">
                     <div *ngFor="let product of products">
-                        <fm-vertical-card class="mx-2" img={{product.img}} tex={{product.text1}} tex2={{product.text2}} 
+                        <fm-vertical-card class="mx-2" img={{product.img}} tex={{product.text1}} tex2={{product.text2}}
                             link={{product.link}}>
                             Loading...
                         </fm-vertical-card>
+                    </div>
                 </div>
             </div>
+            <!-- arrows -->
+            <h2 class="body-wrap" style="padding-top: 32px">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+                </svg>
+                Our Games
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+                </svg>
+            </h2>
+
+            <fm-poster>Loading...</fm-poster>
         </div>
-        <h2 class="body-wrap" style="padding-top: 32px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
-                <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
-            </svg>
-            Our Games
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
-                <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
-            </svg>
-        </h2>
-    </div>
-    </div>
-    <div>
-        <fm-poster>Loading...</fm-poster>
     </div>
 </div>

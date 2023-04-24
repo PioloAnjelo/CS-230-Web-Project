@@ -10,13 +10,16 @@ import { HorizontalCardComponent } from './cards/horizontal.card.component';
 import { VerticalComponent } from './cards/vertical.card.component';
 import { SocialFooterComponent } from './footer/social.footer.component';
 import { WebNavComponent } from './navigation/webnav.component';
-import { ToyotaCaresComponent } from './cards/routingcards/toyotacares.component';
-import { SmartPathComponent } from './cards/routingcards/smartpath.component';
+import { JoinTeamComponent } from './cards/routingcards/jointeam';
+import { MerchComponent } from './cards/routingcards/merch';
 import { HomeLayoutComponent } from './home/home-layout.component';
-import { ToyotaBrandComponent } from './cards/routingcards/toyotabrand.component';
+import { ContactUsComponent } from './cards/routingcards/contact.component';
 import { SearchInventoryComponent } from './routing-nav/search.inventory.component';
 import { LetsGoBrandComponent } from './routing-nav/brand.letsgo.component';
 import { PosterComponent } from './categories/poster.component';
+import { NewsletterComponent } from './newsletter/newsletter';
+import { BlogComponent } from './cards/routingcards/blog.component';
+import { FormBarsComponent } from './categories/formbars.component';
 
 @NgModule({
   declarations: [
@@ -28,13 +31,16 @@ import { PosterComponent } from './categories/poster.component';
     VerticalComponent,
     SocialFooterComponent,
     WebNavComponent,
-    ToyotaCaresComponent,
-    SmartPathComponent,
+    JoinTeamComponent,
+    MerchComponent,
     HomeLayoutComponent,
-    ToyotaBrandComponent,
+    ContactUsComponent,
     SearchInventoryComponent,
     LetsGoBrandComponent,
     PosterComponent,
+    NewsletterComponent,
+    BlogComponent,
+    FormBarsComponent
 
   ],
   imports: [
