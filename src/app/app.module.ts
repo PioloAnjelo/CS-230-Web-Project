@@ -14,13 +14,15 @@ import { TeamComponent } from './cards/routingcards/team';
 import { MerchComponent } from './cards/routingcards/merch';
 import { HomeLayoutComponent } from './home/home-layout.component';
 import { ContactUsComponent } from './cards/routingcards/contact.component';
-import { SearchInventoryComponent } from './routing-nav/search.inventory.component';
-import { LetsGoBrandComponent } from './routing-nav/brand.letsgo.component';
 import { PosterComponent } from './categories/poster.component';
 import { NewsletterComponent } from './newsletter/newsletter';
 import { BlogComponent } from './cards/routingcards/blog.component';
 import { FormBarsComponent } from './categories/formbars.component';
 import { JoinTeamComponent } from './cards/routingcards/jointeam';
+
+
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -36,18 +38,17 @@ import { JoinTeamComponent } from './cards/routingcards/jointeam';
     MerchComponent,
     HomeLayoutComponent,
     ContactUsComponent,
-    SearchInventoryComponent,
-    LetsGoBrandComponent,
     PosterComponent,
     NewsletterComponent,
     BlogComponent,
     FormBarsComponent,
-    JoinTeamComponent
-
+    JoinTeamComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
